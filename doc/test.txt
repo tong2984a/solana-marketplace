@@ -1,0 +1,101 @@
+$ git clone git@github.com:tong2984a/solana-marketplace.git
+Cloning into 'solana-marketplace'...
+remote: Enumerating objects: 143, done.
+remote: Counting objects: 100% (143/143), done.
+remote: Compressing objects: 100% (104/104), done.
+remote: Total 143 (delta 27), reused 139 (delta 26), pack-reused 0
+Receiving objects: 100% (143/143), 31.98 MiB | 3.84 MiB/s, done.
+Resolving deltas: 100% (27/27), done.
+Checking out files: 100% (113/113), done.
+$ cd solana-marketplace/
+$ ndenv local v16.10.0
+$ yarn
+yarn install v1.22.0
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+info @next/swc-android-arm64@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-android-arm64@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-android-arm64@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-arm64@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-darwin-arm64@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm-gnueabihf@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-linux-arm-gnueabihf@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm-gnueabihf@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-arm64-gnu@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-linux-arm64-gnu@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-gnu@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-arm64-musl@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-linux-arm64-musl@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-musl@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-x64-gnu@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-linux-x64-gnu@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-x64-musl@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-linux-x64-musl@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-arm64-msvc@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-win32-arm64-msvc@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-arm64-msvc@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-win32-ia32-msvc@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-win32-ia32-msvc@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-ia32-msvc@12.0.3: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-win32-x64-msvc@12.0.3: The platform "darwin" is incompatible with this module.
+info "@next/swc-win32-x64-msvc@12.0.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] 🔗  Linking dependencies...
+warning "@nfteyez/sol-rayz-react > @nfteyez/sol-rayz > @solana/spl-name-service > crypto-ts@1.0.2" has unmet peer dependency "@angular/common@>= 5.0.0".
+warning "@nfteyez/sol-rayz-react > @nfteyez/sol-rayz > @solana/spl-name-service > crypto-ts@1.0.2" has unmet peer dependency "@angular/core@>= 5.0.0".
+warning "@nfteyez/sol-rayz-react > @nfteyez/sol-rayz > @solana/spl-name-service > webpack-dev-server@3.11.3" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning "@nfteyez/sol-rayz-react > @nfteyez/sol-rayz > @solana/spl-name-service > webpack-dev-server > webpack-dev-middleware@3.7.3" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > @solana/wallet-adapter-base@0.7.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning " > @solana/wallet-adapter-phantom@0.7.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning " > @solana/wallet-adapter-react@0.13.1" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning " > @solana/wallet-adapter-react-ui@0.6.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning " > @solana/wallet-adapter-solflare@0.4.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning " > @solana/wallet-adapter-sollet@0.8.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-sollet > @project-serum/sol-wallet-adapter@0.2.6" has unmet peer dependency "@solana/web3.js@^1.5.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-bitkeep@0.1.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-bitpie@0.3.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-blocto@0.3.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-clover@0.2.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-coin98@0.3.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-coinhub@0.1.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-ledger@0.7.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-mathwallet@0.7.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-safepal@0.3.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-slope@0.3.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-solong@0.7.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-tokenpocket@0.2.0" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus@0.8.1" has unmet peer dependency "@solana/web3.js@^1.20.0".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus > @toruslabs/openlogin@1.0.2" has unmet peer dependency "@babel/runtime@7.x".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus > @toruslabs/openlogin-ed25519@1.0.2" has unmet peer dependency "@babel/runtime@7.x".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus > @toruslabs/openlogin > @toruslabs/http-helpers@1.4.0" has unmet peer dependency "@babel/runtime@7.x".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus > @toruslabs/openlogin > @toruslabs/openlogin-jrpc@1.0.2" has unmet peer dependency "@babel/runtime@7.x".
+warning "@solana/wallet-adapter-wallets > @solana/wallet-adapter-torus > @toruslabs/openlogin > @toruslabs/openlogin-utils@1.0.2" has unmet peer dependency "@babel/runtime@7.x".
+warning "next > styled-jsx > @babel/plugin-syntax-jsx@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+[4/4] 🔨  Building fresh packages...
+warning Your current version of Yarn is out of date. The latest version is "1.22.17", while you're on "1.22.0".
+info To upgrade, run the following command:
+$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+✨  Done in 27.52s.
+$ yarn run dev
+yarn run v1.22.0
+$ next dev
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+warn  - SWC minify beta enabled. https://nextjs.org/docs/messages/swc-minify-enabled
+info  - automatically enabled Fast Refresh for 1 custom loader
+
+warn - You have enabled the JIT engine which is currently in preview.
+warn - Preview features are not covered by semver, may introduce breaking changes, and can change at any time.
+
+🌼 daisyUI components 1.16.2  https://github.com/saadeghi/daisyui
+  ✔︎ Including:  base, components, themes[1], utilities
+
+
+🌼 daisyUI components 1.16.2  https://github.com/saadeghi/daisyui
+  ✔︎ Including:  base, components, themes[1], utilities
+
+event - compiled successfully in 7.6s (624 modules)
+wait  - compiling /...
+event - compiled successfully in 3s (1020 modules)
+wait  - compiling /gallery (client only)...
+event - compiled successfully in 539 ms (976 modules)
+wait  - compiling /mint (client only)...
+event - compiled successfully in 522 ms (979 modules)
